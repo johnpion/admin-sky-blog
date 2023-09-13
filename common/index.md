@@ -3,9 +3,8 @@ layout: default
 title: Common
 ---
 
-# Список файлов
+# common instructions
 
-[..]({{ .. }})
 {% for file in site.static_files %}
   {% if file.path contains '/common' and file.extname == ".md" %}
 [{{ file.basename }}]({{ file.basename }})  
