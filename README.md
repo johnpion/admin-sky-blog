@@ -2,5 +2,4 @@
 
 Tick & trips for more than 10 years
 
-Info:
- - [common](common)
+Under constructions...
