@@ -1,5 +1,5 @@
 {% for file in site.static_files %}
-  {% if file.path contains '/docs/' and file.extname == ".md" %}
-- [{{ file.name }}]({{ file.path }})
+  {% if file.path contains '/docs/' and file.extname == ".md" and file.name != "index.md" %}
+- [{{ file.title }}](./{{ file.path }})
   {% endif %}
 {% endfor %}
