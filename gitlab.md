@@ -51,4 +51,4 @@ Can't upgrade thru several major version. Shut upgrade release-by_release:
 # apt install gitlab-ce=14.0.10-ce.0
 ```
 
-[[https://docs.gitlab.com/ee/update/index.html#linux-packages-omnibus-gitlab]]
+[https://docs.gitlab.com/ee/update/index.html#linux-packages-omnibus-gitlab]
