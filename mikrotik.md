@@ -9,7 +9,11 @@
 
 ## RouterOS v7.X
 RouterOS v7.X uses new syntax with `/`:
-`/ip/address/print`
+```
+/ip/address/print
+```
 
 RouterOS v6.X
-`/ip address print`
+```
+/ip address print
+```
