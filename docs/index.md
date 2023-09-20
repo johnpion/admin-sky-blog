@@ -1,3 +1,0 @@
-# Docs
-
-- [common](common)

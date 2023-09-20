@@ -1,3 +1,1 @@
-# The website has moved
-
-https://johnpion.gitbook.io/admin-sky-blog
+# Ticks&Trips for 10+ years in IT
