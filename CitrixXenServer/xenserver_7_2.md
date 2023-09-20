@@ -1,5 +1,6 @@
 # XenServer 7.2: Install
 
+❗️Warning❗️
 ```
 DISK_A=/dev/sdb
 DISK_B=/dev/sda
