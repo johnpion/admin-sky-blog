@@ -1,4 +1,4 @@
-# XenServer 7.2: Install
+# XenServer 7.2. Install
 
 ❗️Warning❗️
 ```
