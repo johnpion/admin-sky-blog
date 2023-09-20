@@ -1,3 +1,3 @@
-# Under construction
- 
-Ticks and trips for 10+ years work in IT
+# The website has moved
+
+https://johnpion.gitbook.io/admin-sky-blog
