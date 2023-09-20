@@ -1,5 +1,5 @@
 # Using GRE tunnel
-:!: Can use it just when 2 servers commuticated direcly
+❗️ Can use it just when 2 servers commuticated direcly
 
 ## server1
 **iptables**
