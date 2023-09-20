@@ -1,4 +1,4 @@
-## Citrix XenServer 6.5. Install
+## XenServer 6.5. Install
 
 ```shell
 echo 'alias nano="nano -w"' >> ~/.bashrc

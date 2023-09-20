@@ -2,8 +2,8 @@
 
 ## Option 1: use a repo
 ```shell
-# sed -i 's/\$releasever/7/g' /etc/yum.repos.d/CentOS-Base.repo
-# yum install tmux --enablerepo=base
+sed -i 's/\$releasever/7/g' /etc/yum.repos.d/CentOS-Base.repo
+yum install tmux --enablerepo=base
 ```
 
 ## Option 2: directly from site
