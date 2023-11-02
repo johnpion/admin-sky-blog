@@ -29,4 +29,8 @@ reboot
 ```
 
 **VM**
-download and install https://us.download.nvidia.com/Windows/474.64/474.64-desktop-win10-win11-64bit-international-dch-whql.exe
+download and install <https://us.download.nvidia.com/Windows/474.64/474.64-desktop-win10-win11-64bit-international-dch-whql.exe>
+
+## Check
+
+Open big PDF like: <https://doc.lagout.org/operating%20system%20/linux/Linux%20-%20The%20Complete%20Reference.pdf>
