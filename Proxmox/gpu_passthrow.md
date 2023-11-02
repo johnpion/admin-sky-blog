@@ -16,7 +16,7 @@ GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0 intel_iommu=on iommu=pt"
 **/etc/pve/qemu-server/$VM.conf**
 ```
 ...
-hostpci0: 0000:82:00,x-vga=1
+hostpci0: 0000:82:00,pcie=1,rombar=0
 ...
 ```
 
@@ -25,3 +25,6 @@ update-grub
 update-initramfs -u -k all
 reboot
 ```
+
+**VM**
+download and install https://us.download.nvidia.com/Windows/474.64/474.64-desktop-win10-win11-64bit-international-dch-whql.exe
