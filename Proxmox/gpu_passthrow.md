@@ -10,17 +10,19 @@
 
 **/etc/default/grub**
 ```
-GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0 intel_iommu=on iommu=pt"
+GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0 intel_iommu=on iommu=pt initcall_blacklist=sysfb_init"
 ```
 
 **/etc/pve/qemu-server/$VM.conf**
 ```
 ...
-hostpci0: 0000:82:00,pcie=1,rombar=0
+hostpci0: 0000:82:00.0,rombar=0,x-vga=1
 ...
 ```
 
 ```shell
+echo "blacklist nvidia*" >> /etc/modprobe.d/blacklist.conf 
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf 
 update-grub
 update-initramfs -u -k all
 reboot
